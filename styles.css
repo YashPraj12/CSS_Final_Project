@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Mono&family=Sacramento&display=swap');
+/*universal selector*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*local hosted font*/
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(./Font/Montserrat-Medium.woff);
+  }
+/*type selector*/
+body{
+    width: 100%;
+}
+li a {
+    font-family: "Montserrat-Medium";
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    
+}
+/*class selector*/
+.logo1{
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 10%;
+    padding-right: 20px;
+    
+}
+
+/*Home Page*/
+.name{
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.logo1{
+    width: 2em;
+    cursor: pointer;
+}
+.Top-container{
+    background-color: #3146ea;
+}
+.ul-1{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 4em;
+}
+.main-nav{
+    width: 40%;
+}
+.ul-1 li{
+    width: 100%;
+    
+     
+}
+
+.ul-1 li a{
+    font-size: 1.2rem;
+    height: 2em;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+   
+}
+.ul-1 li a:hover{
+    font-size: 1.4rem;
+}
+
+.cotact-div{
+    border-radius: 20px;
+}
+
+
+#left-cloud{
+  
+  padding-left: 10%;
+  padding-top: 5em;
+}
+#right-cloud{
+    position: relative;
+    left: 75%;
+    
+ 
+}
+#index-h1{
+    margin-top: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 8rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #3146ea;
+    line-height: 2;
+   
+   
+    
+}
+
+.H3-1{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #3146ea;
+    font-weight: normal;
+    margin-bottom: 1em;
+
+  
+ 
+}
+/*id selector*/
+#Yash-emoji{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10rem;
+width: 300px;
+
+
+}
+
+
+.p1{
+   
+        text-align: center;
+        padding: 2rem;
+        line-height: 2;
+        width: 70%;
+     font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        margin: 0 auto;   
+    }
+
+.h3{
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #3146ea;
+    font-weight: normal;
+}
+
+
+
+
+/*About page*/
+.yash2{
+    margin-top: 8em;
+    margin-left: 4em;
+    margin-right: 3em;
+    width: 30%;
+    display: block;
+    float: left;
+    margin-bottom: 3em;
+}
+
+.container-2{
+    margin-bottom: 4em;
+}
+.para{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 2;
+    font-size: 1.3rem;
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+.contact-middle-container{
+    justify-content: center;
+}
+#about-h1{
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Par1{
+    margin-top: 8rem;
+}
+.span1{
+background-color: #3146ea;    
+}
+#skills{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+/*child selector*/
+#skills > li{
+    width: 100%;
+    background-color: #333;
+    border-radius: 20px;
+    margin-bottom: 1em;
+    height: 4em;
+    display: flex;
+    overflow: hidden;
+
+}
+
+#skills > li > span{
+    display: flex;
+    align-items: center;
+    background-color: #3146ea;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 1em;
+    color: #fff;
+}
+
+.project p{
+    font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+}
+.project h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #3146ea;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    grid-area: htwo;
+}
+
+.pone{
+    grid-area: pone;
+}
+.ptwo{
+    grid-area: ptwo;
+}
+.pthree{
+    grid-area: pthree;
+}
+.pfour{
+    grid-area: pfour;
+}
+.imgone{
+    grid-area: imgone;
+    width: 40%;
+}
+.imgtwo{
+    grid-area: imgtwo;
+    width: 50%;
+}
+.imgthree{
+    grid-row: imgthree;
+    width: 50%;
+}
+.imgfour{
+    grid-area: imgfour;
+    width: 50%;
+}
+
+
+.project{
+    display: grid;
+   
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:"htwo htwo" 
+                        "pone imgone"
+                        "ptwo imgtwo"
+                        "pthree imgthree"
+                        "pfour imgfour";
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+#html{
+    width: 100%;
+
+}
+
+#css{
+    width: 95%;
+}
+
+#javascript{
+    width: 70%;
+}
+#python{
+    width: 75%;
+}
+#php{
+    width: 70%;
+}
+#skills-h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: #3146ea;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+/*Contact page*/
+#contact-h1{
+    margin-top: 1rem;
+    margin-bottom: 40 px;
+    color: #edf0f1;
+    text-align: center;
+}
+#contact-body{
+    background-color: #3146ea;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-middlecontainer{
+    align-content: center;
+    
+   
+}
+.cotact-div{
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    background-color: #fff;
+padding: 40px 60px;
+
+}
+.c-p1{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #fff;
+}
+.c-h3{
+    text-align: center;
+   
+}
+.formrow{
+    position: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+#c-h3{
+    margin-bottom: 2em;
+}
+
+.input1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.input2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.formrow .formgroup{
+    flex-basis: 45%;
+    
+}
+input{
+    width: 30%;
+    border: none;
+    border-bottom: 3px solid gray;
+    
+}
+textarea{
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    padding: 10px;
+}
+header{
+    background-image: url(./header.jpg);/* image credits - www.ohcbrands.com */
+}
+button{
+    background: #3146ea;
+    width: 15%;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 70px;
+}
+.footer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: black;
+    color: white;
+    padding: 50px 100px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.box{
+    display: flex;    
+   
+}
+.box-item{
+    padding: 0px 30px;
+    
+}
+.icons{
+    height: 42px;
+    width: 42px;
+}
+.side-box{
+    display: flex;
+    padding: 10px;
+}

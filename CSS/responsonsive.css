@@ -1,0 +1,275 @@
+@media screen and (max-width: 700px) {
+ 
+  #index-h1 {
+    margin-top: 1em;
+    font-size: 4rem;
+  }
+  .main-nav{
+    width: 50%;
+}
+  .yash2 {
+    float: none;
+    align-items: center;
+    margin: 0 auto;
+  }
+  input {
+    width: 40%;
+  }
+  #c-h3{
+    text-align: center;
+  }
+  .para {
+    padding: 0 0.7em;
+  }
+  .c-p1 {
+    display: none;
+  }
+  #index-h1{
+    margin-top: 0.5em;
+    
+  }
+  #left-cloud{
+    padding-left: 5%;
+    width: 20%;
+  }
+  #right-cloud{
+    width: 15%;
+    left: 80%;
+  }
+  .H3-1{
+   margin-top: 2em;
+  }
+  #Yash-emoji{
+    margin-top: 5em;
+  }
+  .yash2{
+    width: 40%;
+  }
+  #Par1{
+    margin-top: 2em;
+  }
+  #about-h1{
+    margin-top: 0;
+    font-size: 3rem;
+  }
+  .para{
+    font-size: 1.1rem;
+  }
+  #skills{
+    width: 80%;
+  }
+  #skills > li{
+    height: 3em;
+  }
+  .project p{
+    font-size: 1rem;
+  }
+  .project h2{
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+  }
+  .imgone{
+    width: 70%;
+  }
+  .imgtwo{
+    width: 80%;
+  }
+  .imgthree{
+    width: 70%;
+  }
+  .imgfour{
+    width: 70%;
+  }
+
+}
+@media screen and (max-width: 580px) {
+  #left-cloud{
+    padding-top: 2.5em;
+  }
+  .main-nav{
+    width: 60%;
+}
+  #index-h1{
+    margin-top: 0.2em;
+    font-size: 3rem;
+  }
+  .H3-1{
+    margin-top: 0;
+    font-size: 1.3rem;
+  }
+  #Yash-emoji{
+    width: 40%;
+    margin-top: 2em;
+  }
+  .middle-container2 > figure + h3{
+    margin-top: 0.5em;
+    font-size: 1.8rem;
+  }
+  .p1{
+    padding: 0;
+    font-size: 1rem;
+  }
+  .project p{
+    font-size: 0.9rem;
+  }
+  .project h2{
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+  }
+  
+  footer{
+    margin-top: 1em;
+  }
+  .footer-box{
+    padding: 1em;
+  }
+  button {
+    width: 25%;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .side-box >p {
+    font-size: 0.9rem;
+  }
+  .input1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .input2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 460px) {
+  button {
+    width: 30%;
+  }
+  input {
+    width: 50%;
+  }
+  .logo1 {
+    display: none;
+  }
+  .header-main {
+    justify-content: center;
+  }
+  .nav-link p {
+    font-size: 1rem;
+  }
+  
+  .H3-1{
+    font-size: 2rem;
+  }
+  #about-h1{
+    font-size: 3rem;
+  }
+  .para{
+    font-size: 0.9rem;
+    padding: 0;
+  }
+  .container-2{
+    margin-bottom: 1em;
+  }
+  #skills-h2{
+    font-size: 3rem;
+  }
+  #contact-h1{
+    font-size: 3rem;
+  }
+  .cotact-div{
+    padding: 20px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 380px) {
+  header {
+    justify-content: center;
+  }
+  #index-h1{
+    font-size: 2rem;
+  }
+  #left-cloud{
+    padding-top: 2em;
+  }
+  
+  .H3-1{
+    margin-top: 0.5em;
+    font-size: 1.3rem;
+  }
+  #Yash-emoji{
+    width: 50%;
+    margin-top: 2.5em;
+  }
+  .middle-container2 > figure + h3{
+    margin-top: 0.5em;
+    font-size: 1.3rem;
+  }
+  .p1{
+    padding: 0;
+    font-size: 0.8rem;
+  }
+  .side-box {
+    display: none;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+  .ul-1 li {
+    padding: 0 0.5em;
+  }
+  #about-h1 {
+    display: none;
+  }
+  input {
+    width: 60%;
+  }
+  .yash2 {
+    margin-top: 2em;
+  }
+  .para{
+    font-size: 0.8rem;
+  }
+  #skills-h2{
+    font-size: 2rem;
+    margin-bottom: 0.7em;
+  }
+  #skills > li{
+    height: 2em;
+  }
+  .project p{
+    font-size: 0.6rem;
+  }
+  
+  .imgone{
+    width: 100%;
+  }
+  .imgtwo{
+    width: 100%;
+  }
+  .imgthree{
+    width: 100%;
+  }
+  .imgfour{
+    width: 100%;
+  }
+  
+  button {
+    width: 45%;
+  }
+  footer{
+    margin-top: 1em;
+    
+  }
+  .footer-box{
+    padding: 0.5em 1em;
+  }
+}
